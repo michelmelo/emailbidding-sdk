@@ -1,0 +1,24 @@
+{
+  "name": "michelmelo/emailbidding-sdk",
+  "type": "library",
+  "description": "Collection of scripts to allow interactions with Emailbidding API",
+  "keywords": ["php", "api", "emailbidding", "sdk"],
+  "homepage": "http://github.com/michelmelo/emailbidding-sdk",
+  "license": "MIT",
+  
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "~6.2",
+    "symfony/yaml": "@stable"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*",
+    "squizlabs/php_codesniffer": "1.5.*",
+    "phpmd/phpmd": "~1.5.0",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "psr-0": { "EB\\SDK": "src/" }
+  }
+}
